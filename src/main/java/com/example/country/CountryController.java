@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-public class CountryController {
+public class CountryController  {
     @Autowired
     private ContryRepository countryrepository ;
     @Autowired
@@ -51,4 +51,5 @@ public class CountryController {
         return countryrepository.findAll(p);
     }
 }
+
 
