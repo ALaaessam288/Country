@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @ToString
 @Document("Countries")
-public class Country {
+public class Country extends Object {
     @Id
     int id ;
     @Indexed(unique = true)
